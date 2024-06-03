@@ -1,0 +1,503 @@
+Skip to content
+
+
+Navigation Menu
+
+
+Sign in
+
+		Product 
+		 Actions Automate any workflow 
+		 Packages Host and manage packages 
+		 Security Find and fix vulnerabilities 
+		 Codespaces Instant dev environments 
+		 Copilot Write better code with AI 
+		 Code review Manage code changes 
+		 Issues Plan and track work 
+		 Discussions Collaborate outside of code 
+		 Explore
+		All features 
+		Documentation 
+		GitHub Skills 
+		Blog 
+		 
+		Solutions  For
+		Enterprise 
+		Teams 
+		Startups 
+		Education 
+		 By Solution
+		CI/CD & Automation 
+		DevOps 
+		DevSecOps 
+		 Resources
+		Learning Pathways 
+		White papers, Ebooks, Webinars 
+		Customer Stories 
+		Partners 
+		 
+		Open Source 
+		GitHub Sponsors Fund open source developers 
+		
+		The ReadME Project GitHub community articles 
+		 Repositories
+		Topics 
+		Trending 
+		Collections 
+		 
+		Enterprise 
+		 Enterprise platform AI-powered developer platform 
+		 Available add-ons
+		 Advanced Security Enterprise-grade security features 
+		 Copilot Enterprise Enterprise-grade AI features 
+		 Premium Support Enterprise-grade 24/7 support 
+		 
+		Pricing
+
+Search or jump to...
+
+
+Sign in
+
+
+
+github
+/
+vscode-codeql-starter
+
+Public
+	•	
+	•	
+	•	 
+	•	
+
+		 Code  Issues 5  Pull requests  Actions  Projects  Security   Insights
+
+github/vscode-codeql-starter
+
+
+Folders and files
+Name
+Last commit message
+Last commit date
+Latest commit
+ 
+History
+
+
+.devcontainer
+ 
+ 
+
+.github/workflows
+ 
+ 
+
+codeql-custom-queries-cpp
+ 
+ 
+
+codeql-custom-queries-csharp
+ 
+ 
+
+codeql-custom-queries-go
+ 
+ 
+
+codeql-custom-queries-java
+ 
+ 
+
+codeql-custom-queries-javascript
+ 
+ 
+
+codeql-custom-queries-python
+ 
+ 
+
+codeql-custom-queries-ruby
+ 
+ 
+
+ql @ b7f0b7a
+ 
+ 
+
+.gitignore
+ 
+ 
+
+.gitmodules
+ 
+ 
+
+CODE_OF_CONDUCT.md
+ 
+ 
+
+CONTRIBUTING.md
+ 
+ 
+
+LICENSE.md
+ 
+ 
+
+README.md
+ 
+ 
+
+codeql-workspace.yml
+ 
+ 
+
+vscode-codeql-starter.code-workspace
+ 
+ 
+Repository files navigation
+		 README  Code of conduct  MIT license  Security
+vscode-codeql-starter
+
+A starter workspace to use with the CodeQL extension for Visual Studio Code. For more information, see the vscode-codeql repo.
+Instructions
+
+	1	Install Visual Studio Code.
+	2	Install the CodeQL extension for Visual Studio Code.
+	3	Clone this repository to your computer.
+	◦	Make sure to include the submodules, either by git clone --recursive or by git submodule update --init --remote after clone.
+	◦	Use git submodule update --remote regularly to keep the submodules up to date.
+	4	In VS Code, click File > Open Workspace. Select the file vscode-codeql-starter.code-workspace in your checkout of this repository.
+	5	You will see several folders open in the left sidebar:
+	◦	The ql folder contains the open-source CodeQL standard libraries for C/C++, C#, Go, Java, JavaScript/Typescript, Python, and Ruby. It tracks the branch tagged codeql-cli/latest in https://github.com/github/codeql. You can run the standard queries from here, and browse the libraries.
+	◦	The folders named codeql-custom-queries-<language> are ready for you to start developing your own custom queries for each language, while using the standard libraries. There are some example queries to get you started.
+	6	Follow the documentation for the CodeQL extension to learn how to set up the extension, add a database and run queries against it. Have fun!
+Using the vscode-codeql-starter in a private repository
+
+If you want to privately share your CodeQL queries with your teammates using this project as a template:
+	1	Create an empty, private project in the organization you want.
+	2	Clone this project locally: git clone git@github.com:github/vscode-codeql-starter.git
+	3	Add a remote to the local copy git remote add my-org git@github.com:<MY-ORG>/vscode-codeql-starter.git
+	4	Push the code to the new remote: git push my-org main
+GitHub does not allow private forks of public repositories.
+Contributing
+
+This project welcomes contributions. See CONTRIBUTING.md for details.
+Reporting issues
+
+Issues and suggestions should be reported in the vscode-codeql repo.
+License
+
+This project is licensed under the MIT License.
+The CodeQL extension for Visual Studio Code is licensed under the MIT License. The version of CodeQL used by the CodeQL extension is subject to the GitHub CodeQL Terms & Conditions.
+About
+Starter workspace to use with the CodeQL extension for Visual Studio Code.
+Topics
+vscode vscode-extension codeql works-with-codespaces
+Resources
+Readme
+License
+MIT license
+Code of conduct
+Code of conduct
+Security policy
+Security policy
+Activity
+Custom properties
+Stars
+460 stars
+Watchers
+22 watching
+Forks
+233 forks
+Report repository
+Releases
+1 tags
+Packages
+No packages published 
+Contributors
+37
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
++ 23 contributors
+Languages
+
+		 CodeQL 100.0%
+Footer
+
+© 2024 GitHub, Inc.
+Footer navigation
+		Terms
+		Privacy
+		Security
+		Status
+		Docs
+		Contact
+		Manage cookies
+		Do not share my personal information
+Skip to content
+
+
+Navigation Menu
+
+
+Sign in
+
+		Product 
+		 Actions Automate any workflow 
+		 Packages Host and manage packages 
+		 Security Find and fix vulnerabilities 
+		 Codespaces Instant dev environments 
+		 Copilot Write better code with AI 
+		 Code review Manage code changes 
+		 Issues Plan and track work 
+		 Discussions Collaborate outside of code 
+		 Explore
+		All features 
+		Documentation 
+		GitHub Skills 
+		Blog 
+		 
+		Solutions  For
+		Enterprise 
+		Teams 
+		Startups 
+		Education 
+		 By Solution
+		CI/CD & Automation 
+		DevOps 
+		DevSecOps 
+		 Resources
+		Learning Pathways 
+		White papers, Ebooks, Webinars 
+		Customer Stories 
+		Partners 
+		 
+		Open Source 
+		GitHub Sponsors Fund open source developers 
+		
+		The ReadME Project GitHub community articles 
+		 Repositories
+		Topics 
+		Trending 
+		Collections 
+		 
+		Enterprise 
+		 Enterprise platform AI-powered developer platform 
+		 Available add-ons
+		 Advanced Security Enterprise-grade security features 
+		 Copilot Enterprise Enterprise-grade AI features 
+		 Premium Support Enterprise-grade 24/7 support 
+		 
+		Pricing
+
+Search or jump to...
+
+
+Sign in
+
+
+
+github
+/
+vscode-codeql-starter
+
+Public
+	•	
+	•	
+	•	 
+	•	
+
+		 Code  Issues 5  Pull requests  Actions  Projects  Security   Insights
+
+github/vscode-codeql-starter
+
+
+Folders and files
+Name
+Last commit message
+Last commit date
+Latest commit
+ 
+History
+
+
+.devcontainer
+ 
+ 
+
+.github/workflows
+ 
+ 
+
+codeql-custom-queries-cpp
+ 
+ 
+
+codeql-custom-queries-csharp
+ 
+ 
+
+codeql-custom-queries-go
+ 
+ 
+
+codeql-custom-queries-java
+ 
+ 
+
+codeql-custom-queries-javascript
+ 
+ 
+
+codeql-custom-queries-python
+ 
+ 
+
+codeql-custom-queries-ruby
+ 
+ 
+
+ql @ b7f0b7a
+ 
+ 
+
+.gitignore
+ 
+ 
+
+.gitmodules
+ 
+ 
+
+CODE_OF_CONDUCT.md
+ 
+ 
+
+CONTRIBUTING.md
+ 
+ 
+
+LICENSE.md
+ 
+ 
+
+README.md
+ 
+ 
+
+codeql-workspace.yml
+ 
+ 
+
+vscode-codeql-starter.code-workspace
+ 
+ 
+Repository files navigation
+		 README  Code of conduct  MIT license  Security
+vscode-codeql-starter
+
+A starter workspace to use with the CodeQL extension for Visual Studio Code. For more information, see the vscode-codeql repo.
+Instructions
+
+	1	Install Visual Studio Code.
+	2	Install the CodeQL extension for Visual Studio Code.
+	3	Clone this repository to your computer.
+	◦	Make sure to include the submodules, either by git clone --recursive or by git submodule update --init --remote after clone.
+	◦	Use git submodule update --remote regularly to keep the submodules up to date.
+	4	In VS Code, click File > Open Workspace. Select the file vscode-codeql-starter.code-workspace in your checkout of this repository.
+	5	You will see several folders open in the left sidebar:
+	◦	The ql folder contains the open-source CodeQL standard libraries for C/C++, C#, Go, Java, JavaScript/Typescript, Python, and Ruby. It tracks the branch tagged codeql-cli/latest in https://github.com/github/codeql. You can run the standard queries from here, and browse the libraries.
+	◦	The folders named codeql-custom-queries-<language> are ready for you to start developing your own custom queries for each language, while using the standard libraries. There are some example queries to get you started.
+	6	Follow the documentation for the CodeQL extension to learn how to set up the extension, add a database and run queries against it. Have fun!
+Using the vscode-codeql-starter in a private repository
+
+If you want to privately share your CodeQL queries with your teammates using this project as a template:
+	1	Create an empty, private project in the organization you want.
+	2	Clone this project locally: git clone git@github.com:github/vscode-codeql-starter.git
+	3	Add a remote to the local copy git remote add my-org git@github.com:<MY-ORG>/vscode-codeql-starter.git
+	4	Push the code to the new remote: git push my-org main
+GitHub does not allow private forks of public repositories.
+Contributing
+
+This project welcomes contributions. See CONTRIBUTING.md for details.
+Reporting issues
+
+Issues and suggestions should be reported in the vscode-codeql repo.
+License
+
+This project is licensed under the MIT License.
+The CodeQL extension for Visual Studio Code is licensed under the MIT License. The version of CodeQL used by the CodeQL extension is subject to the GitHub CodeQL Terms & Conditions.
+About
+Starter workspace to use with the CodeQL extension for Visual Studio Code.
+Topics
+vscode vscode-extension codeql works-with-codespaces
+Resources
+Readme
+License
+MIT license
+Code of conduct
+Code of conduct
+Security policy
+Security policy
+Activity
+Custom properties
+Stars
+460 stars
+Watchers
+22 watching
+Forks
+233 forks
+Report repository
+Releases
+1 tags
+Packages
+No packages published 
+Contributors
+37
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
++ 23 contributors
+Languages
+
+		 CodeQL 100.0%
+Footer
+
+© 2024 GitHub, Inc.
+Footer navigation
+		Terms
+		Privacy
+		Security
+		Status
+		Docs
+		Contact
+		Manage cookies
+		Do not share my personal information
+
+
+
